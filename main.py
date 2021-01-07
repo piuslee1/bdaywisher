@@ -8,8 +8,7 @@ today_tuple=(today.month, today.day)
 
 data=pandas.read_csv("birthdays.csv")
 
-EMAIL="piusleealt1@gmail.com"
-PASSWORD="06232000"
+
 
 
 bday_dict={(data_row["month"], data_row["day"]): data_row for (index, data_row) in data.iterrows()}
